@@ -1,3 +1,6 @@
+body{
+   background-color: lightgrey;
+}
 .carouselbackground{
     background-color: #fceae8;
     border: 10px;
@@ -8,6 +11,12 @@
     margin-bottom: 100px;
 }
 h2{
+    color: #ff136f;
+}
+h5{
+    color: tomato;
+}
+h6{
     color: #ff136f;
 }
 .carousel-item{
@@ -23,4 +32,41 @@ h2{
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.catagories h1{
+    color: white;
+}
+.catagories img{
+    width: 100px;
+}
+
+.cat1{
+    background-image: linear-gradient(to bottom,lightsalmon 0%, tomato 100% );
+    padding: 10px;
+}
+.cat2{
+    background-image: linear-gradient(to bottom,navy 0%, blue 100% );
+}
+.cat3{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100% );
+}
+.cat1,.cat2,.cat3{
+    
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgoldenrodyellow;
+}
+
+#Contuct{
+    height: 300px;
+}
+#Contuct h6{
+    color: grey;
+}
+footer{
+    text-align: center;
 }
